@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardsPage">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/backButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#fff">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/back_arrow"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:id="@+id/back_arrow"
+            android:onClick="goBack"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="320dp"
+                app:cardCornerRadius="40px">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10px"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/tenSarID"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:background="#ffffff"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/playstation10sar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:text="Pay with"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="350px"
+                        android:layout_height="150px"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="40px">
+
+                        <ImageButton
+                            android:id="@+id/tenSarBtnID"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#f7f8f9"
+                            android:onClick="buyNow"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mada" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="320dp"
+                app:cardCornerRadius="40px">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10px"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/twentySarID"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:background="#ffffff"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/playstation10sar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:text="Pay with"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="350px"
+                        android:layout_height="150px"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="40px">
+
+                        <ImageButton
+                            android:id="@+id/twentySarBtnID"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#f7f8f9"
+                            android:onClick="buyNow"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mada" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="320dp"
+                app:cardCornerRadius="40px">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10px"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/fiftySarID"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:background="#ffffff"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/playstation10sar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:text="Pay with"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="350px"
+                        android:layout_height="150px"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="40px">
+
+                        <ImageButton
+                            android:id="@+id/fiftySarBtnID"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#f7f8f9"
+                            android:onClick="buyNow"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mada" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="320dp"
+                app:cardCornerRadius="40px">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10px"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/oneHundredHSarID"
+                        android:layout_width="180dp"
+                        android:layout_height="220dp"
+                        android:background="#ffffff"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/playstation10sar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"
+                        android:text="Pay with"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="350px"
+                        android:layout_height="150px"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="40px">
+
+                        <ImageButton
+                            android:id="@+id/oneHundredHSarBtnID"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#f7f8f9"
+                            android:onClick="buyNow"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/mada" />
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

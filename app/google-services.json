@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924976453490",
+    "project_id": "giftit-ade0b",
+    "storage_bucket": "giftit-ade0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924976453490:android:2fcc334a8334940a02afeb",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924976453490-cvmk13uiatk578j4bung590n5ptr6nop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2Pv9mOY7pN_F7F8Wi88jwyyQDxrKS70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924976453490-cvmk13uiatk578j4bung590n5ptr6nop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

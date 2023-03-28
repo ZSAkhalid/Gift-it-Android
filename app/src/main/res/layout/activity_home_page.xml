@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/playstation_button"
+                android:layout_width="180dp"
+                android:layout_height="300dp"
+                android:background="#ffffff"
+                android:onClick="selectStoreCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/playstation" />
+
+            <ImageButton
+                android:id="@+id/epic_games_button"
+                android:layout_width="180dp"
+                android:layout_height="300dp"
+                android:background="#ffffff"
+                android:onClick="selectStoreCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/epic_games" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/xbox_button"
+                android:layout_width="180dp"
+                android:layout_height="300dp"
+                android:background="#ffffff"
+                android:onClick="selectStoreCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/xbox" />
+
+            <ImageButton
+                android:id="@+id/android_button"
+                android:layout_width="180dp"
+                android:layout_height="300dp"
+                android:background="#ffffff"
+                android:onClick="selectStoreCard"
+                android:scaleType="fitCenter"
+                android:src="@drawable/android" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
